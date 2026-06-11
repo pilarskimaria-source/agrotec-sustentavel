@@ -1,0 +1,87 @@
+```css
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial, sans-serif;
+}
+
+body{
+    background:#f4f4f4;
+    color:#333;
+}
+
+header{
+    background:#2e7d32;
+    color:white;
+    text-align:center;
+    padding:20px;
+}
+
+.logo{
+    width:120px;
+    margin-bottom:10px;
+}
+
+.banner img{
+    width:100%;
+    display:block;
+}
+
+section{
+    padding:30px;
+    text-align:center;
+}
+
+section img{
+    max-width:600px;
+    width:100%;
+    margin-top:15px;
+    border-radius:10px;
+}
+
+.simulador{
+    background:white;
+}
+
+input{
+    padding:10px;
+    width:200px;
+    margin:10px;
+}
+
+button{
+    padding:10px 20px;
+    background:#4caf50;
+    color:white;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#388e3c;
+}
+
+#resultado{
+    margin-top:20px;
+    color:#2e7d32;
+}
+
+footer{
+    background:#1b5e20;
+    color:white;
+    text-align:center;
+    padding:15px;
+}
+
+@media(max-width:768px){
+    section{
+        padding:15px;
+    }
+
+    .logo{
+        width:80px;
+    }
+}
+```
